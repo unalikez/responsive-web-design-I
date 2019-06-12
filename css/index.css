@@ -362,28 +362,47 @@ footer {
 	}
 	header nav {
 		flex-direction: column;
-		align-content: center;
-		justify-content: center;
 		margin: 0;
 		padding: 0;
 	}
 	header nav a {
 		margin: 20px 0 0 0;
-		padding: 0;
-		border-top: 1px solid black;
 		border-bottom: 1px solid black;
+		width: 550px;
+		text-align: center;
+		box-sizing: border-box;
+		padding-bottom: 20px;
+	}
+	p {
+		font-size: 15px;
+	}
+	.services-btn {
+		border-top: 1px solid black;
+		padding-top: 20px;
+	}
+	.logo {
+		/* margin: 0 auto; */
+		padding-left: 40px;
 	}
 	.cta {
-		margin-top: 200px;
+		margin-top: 320px;
 	}
 	.middle-img {
 		width: 450px;;
 	}
 	.main-content {
 		flex-direction: column;
+		margin-top: 30px;
+	}
+	.main1 {
+		margin-bottom: 40px;
 	}
 	.second {
 		flex-direction: column;
+		margin-top: 20px;
+	}
+	.second-div {
+		margin-bottom: 20px;
 	}
 }
 
